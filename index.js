@@ -3,7 +3,7 @@ const cors = require('cors')
 // const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 3000;
-const api = require('./vercel.json');
+const api = require('./data.json');
 
 app.use(cors())
 
